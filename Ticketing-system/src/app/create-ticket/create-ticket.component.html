@@ -1,0 +1,105 @@
+
+<!-- menu -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+   
+  <!-- <div class="collapse navbar-collapse" id="navbarColor03"> -->
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" style="color: rgb(247, 97, 122);"><i class="bi bi-house"></i>Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: rgb(33, 127, 222);"> <i class="bi bi-person"></i>Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color:rgb(246, 146, 69);"> <i class="bi bi-ticket"></i>Tickets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: #9df21d;"><i class="bi bi-person-add"></i>Cretae-User</a>
+      </li>
+    </ul>
+
+    
+
+    <form class="form-inline my-2 my-lg-0">
+       
+      <input class="form-control mr-sm-2" type="text" placeholder="Search"> 
+      <!-- <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button> -->
+    </form>
+  <!-- </div> -->
+</nav>
+
+
+
+<!-- Create-ticket component -->
+
+<div class="create-ticket-container">
+    <h2 style="font-family: 'Times New Roman', Times, serif; text-align: center;">Create Ticket <i class="bi bi-ticket"></i></h2>
+    <form>
+      <div class="form-group">
+        <label for="ticketType">Ticket Type:</label>
+        <select id="ticketType"  name="ticketType" required>
+          <option value="issue">Issue</option>
+          <option value="request">Request</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="source">Source Type:</label>
+        <select id="form-control" name="source"></select>
+    </div>
+  
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name"  name="name" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="year">Year:</label>
+        <input type="text" id="year"  name="year" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="section">Section:</label>
+        <input type="text" id="section"  name="section" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="department">Department:</label>
+        <input type="text" id="department"  name="department" required>
+      </div>
+
+      <div class="form-group">
+        <label for="mailid">University MailId</label>
+        <input type="text" id="mailid"  name="mailid" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="faName">Faculty Advisor Name:</label>
+        <input type="text" id="faName"  name="faName" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="letter">Letter:</label>
+        <input type="file" id="letter"  name="letter">
+      </div>
+  
+      <div class="form-group">
+        <label for="file">File (if required):</label>
+        <input type="file" id="file" >
+      </div>
+  
+      <div class="form-group">
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+      </div>
+  
+      <button type="submit">Submit Ticket</button>
+    </form>
+  </div>
+  

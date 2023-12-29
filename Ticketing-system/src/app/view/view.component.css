@@ -1,0 +1,17 @@
+ /* Add this to your stylesheet */
+.thead-light-blue th {
+    background-color: #add8e6; /* Light blue color */
+    color: #333; /* Text color */
+  }
+
+  
+  /* Add this to your stylesheet */
+.table-space {
+    margin: 0 20px; /* Adjust the value based on your preference */
+  }
+
+.mb-4{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+  

@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding-bottom: 50px;  
+}
+
+.header {
+    background-color: hsl(226, 90%, 35%);
+    height: 70px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    color: white;
+    /* background-image:url('E:/Ticket-Management-System/Ticketing-system/src/assets/TIfaco.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;  */
+}
+
+.header img {
+    height: 50px;
+    margin: 0 10px;
+}
+
+.header h1 {
+    font-size: 28px;
+    text-align: center;
+    /* margin: 0; */
+    margin-right: 30vh;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:3%; /* Adjust to match desired footer height */
+    color:white;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(12, 7, 1);
+
+}
+
+.para{
+    height: 5px;
+ }
+
+  
+
+  
