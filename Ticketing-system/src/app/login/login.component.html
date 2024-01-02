@@ -2,13 +2,14 @@
  
  <div class="login-card">
     <h2 style="font-family: 'Times New Roman', Times, serif;">Login</h2>
-    <form>
+    <form (ngSubmit)="login()">
       <label for="username"><i class="bi bi-person-circle"></i>Username</label>
-      <input type="text" id="username" name="username" required>
+      <input type="text" id="username" name="username" [(ngModel)]="username" required>
   
       <label for="password"><i class="bi bi-lock-fill"></i>Password</label>
-      <input type="password" id="password" name="password" required>
-  
+      <input type="password" id="password" name="password" [(ngModel)]=" password"required>
+      <div class="error-message" *ngIf="errorMessage">{{ errorMessage }}</div>
+
       <button type="submit">Submit</button>
     </form>
   </div>

@@ -9,8 +9,10 @@ import { ViewDataComponent } from './view-data/view-data.component';
 import { ViewComponent } from './view/view.component';
 import { TicketsComponent } from './tickets/tickets.component';
 import { ProfileComponent } from './profile/profile.component';
-
-@NgModule({
+// import { AuthService } from './auth.service';
+import {HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+  @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
@@ -23,7 +25,11 @@ import { ProfileComponent } from './profile/profile.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
